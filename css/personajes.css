@@ -1,0 +1,73 @@
+@charset "UTF-8";
+html, body {
+	height: 100%;
+	min-height: 865px;
+}
+#revistaBack {
+	position: absolute;
+	height: 732px;
+	width: 1179px;
+	top: 68px;
+	left: -118px;
+	background: url(../images/personajes/back-revista.png) no-repeat center top;
+}
+#personajeTop {
+	position: absolute;
+	height: 614px;
+	width: 869px;
+	left: 169px;
+	top: 106px;
+}
+#personajeBot {
+	position: absolute;
+	height: 614px;
+	width: 869px;
+	left: 169px;
+	top: 106px;
+}
+#flechaI {
+	position: absolute;
+	height: 68px;
+	width: 74px;
+	left: 136px;
+	top: 414px;
+}
+#flechaD {
+	position: absolute;
+	height: 66px;
+	width: 71px;
+	left: 1005px;
+	top: 354px;
+}
+#flechaI img, #flechaD img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+#flechaI #over, #flechaD #over {
+	display: none;
+}
+#cargando {
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	height: 90px;
+	width: 200px;
+	left: 511px;
+	top: 327px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+#cargando div  {
+	font-weight: bold;
+	color: #FFF;
+	height: 20px;
+	width: auto;
+	position: absolute;
+	top: 34px;
+	left: 64px;
+}
+#fullContainer {
+	background: url(../images/personajes-back.jpg) center top;
+	background-size: cover;
+	min-height: 865px;
+}

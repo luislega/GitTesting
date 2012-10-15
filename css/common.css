@@ -1,0 +1,141 @@
+@charset "UTF-8";
+html, body {
+	height: 100%;
+	min-height: 800px;
+	background: #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#centered {
+	position: absolute;
+	height: 800px;
+	width: 1000px;
+	left: 50%;
+	top: 0px;
+	margin-left: -500px;
+	overflow: visible;
+}
+#head {
+	position: absolute;
+	height: 361px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+#glow1 {
+	background-image: url(../images/glow_01.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 176px;
+	width: 297px;
+	left: 181px;
+}
+#glow2 {
+	background-image: url(../images/glow_02.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 169px;
+	width: 281px;
+	left: 382px;
+}
+#glow3 {
+	background-image: url(../images/glow_03.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 198px;
+	width: 333px;
+	left: 530px;
+}
+#hit1 {
+	position: absolute;
+	height: 33px;
+	width: 86px;
+	left: 33px;
+	top: 4px;
+}
+#hit2 {
+	position: absolute;
+	height: 30px;
+	width: 68px;
+	left: 233px;
+	top: 4px;
+}
+#hit3 {
+	position: absolute;
+	height: 34px;
+	width: 134px;
+	left: 376px;
+	top: 4px;
+}
+#links {
+	position: absolute;
+	height: 44px;
+	width: 546px;
+	left: 258px;
+	top: 10px;
+	z-index: 9999;
+}
+#op {
+	position: absolute;
+	left: 86px;
+}
+#ro {
+	display: none;
+}
+#glow1 #ro{
+	position: absolute;
+	left: 22px;
+	z-index: 9998;
+}
+#glow2 #ro{
+	position: absolute;
+	left: 41px;
+	z-index: 9998;
+}
+#glow3 #ro{
+	position: absolute;
+	left: -3px;
+	z-index: 9998;
+}
+#logo {
+	position: absolute;
+	height: 188px;
+	width: 211px;
+	left: 402px;
+	top: 66px;
+}
+#fullContainer {
+	position: absolute;
+	min-height: 800px;
+	height: 100%;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+#facebook {
+	position: absolute;
+	height: 22px;
+	width: 22px;
+	left: 929px;
+	top: 12px;
+}
+#twitter {
+	position: absolute;
+	height: 22px;
+	width: 22px;
+	left: 965px;
+	top: 12px;
+}
+#footer {
+	background: #000 url(../images/logos.jpg) center no-repeat;
+	position: absolute;
+	height: 46px;
+	width: 100%;
+	bottom: 0px;
+}
+#footer-int {
+	background: #000 url(../images/logos-int.jpg) center no-repeat;
+	position: absolute;
+	height: 46px;
+	width: 100%;
+	bottom: 0px;
+}

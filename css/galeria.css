@@ -1,0 +1,137 @@
+@charset "UTF-8";
+html, body {
+	height: 100%;
+	min-height: 865px;
+}
+#ss {
+	position: absolute;
+	height: 469px;
+	width: 831px;
+	left: 87px;
+	top: 213px;
+}
+#galHit {
+	position: absolute;
+	height: 469px;
+	width: 831px;
+	left: 87px;
+	top: 213px;
+}
+.shadow {
+	-moz-box-shadow: 13px 13px 10px rgba(24,24,24,50);
+	-webkit-box-shadow: 13px 13px 10px rgba(24,24,24,0.5);
+	box-shadow: 13px 13px 10px rgba(24,24,24,0.5);
+	top: 3px;
+	left: 3px;
+	height: 463px;
+	width: 823px;
+	position: absolute;
+}
+.shadow img {
+	position: absolute;
+}
+#ss #marco {
+	position: absolute;
+	height: 469px;
+	width: 831px;
+}
+#fs {
+	background: rgba(0, 0, 0, 0.55);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+#fs img {
+	position: absolute;
+}
+#fs #fsImg {
+	position: absolute;
+	width: 80%;
+}
+#cerrar {
+	height: 67px;
+	width: 128px;
+	top: 0px;
+	position: absolute;
+	background: url(../images/galeria/cerrar.png) no-repeat center top;
+}
+#pleca {
+	background: url(../images/galeria/pleca.png) no-repeat center top;
+	position: absolute;
+	height: 36px;
+	width: 338px;
+	left: 567px;
+	top: 679px;
+}
+#ss_control {
+	position: absolute;
+	height: 245px;
+	width: 245px;
+	left: 388px;
+	top: 620px;
+}
+#ss_control #i {
+	position: absolute;
+	height: 95px;
+	width: 117px;
+	top: 77px;
+}
+#ss_control #d {
+	position: absolute;
+	height: 95px;
+	width: 117px;
+	top: 77px;
+	left: 128px;
+}
+#ss_control img#glow {
+	display: none;
+}
+#ss_control #teibolera-glow {
+	position: absolute;
+	width: 245px;
+	display: none;
+}
+#ss_control #teibolera {
+	position: absolute;
+	height: 83px;
+	width: 67px;
+	left: 85px;
+	top: 76px;
+}
+#centered #ss_control #i #flecha {
+	position: absolute;
+	left: 19px;
+	top: 18px;
+	cursor: hand;
+}
+#centered #ss_control #d #flecha {
+	position: absolute;
+	left: 17px;
+	top: 18px;
+}
+#pleca #i_de_n {
+	position: absolute;
+	height: 20px;
+	width: 75px;
+	left: 250px;
+	top: 7px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+}
+#i_de_n_fs {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #FFF;
+	position: absolute;
+	height: 30px;
+	width: 80px;
+	text-align: center;
+}
+#fullContainer {
+	background: url(../images/galeria-back.jpg) center top;
+	background-size: cover;
+	min-height: 865px;
+}

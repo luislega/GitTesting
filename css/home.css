@@ -1,0 +1,47 @@
+@charset "UTF-8";
+#personajes_i {
+	background-image: url(../images/personajes_i.png);
+	position: absolute;
+	height: 300px;
+	width: 355px;
+	left: 45px;
+	top: 61px;
+}
+#personajes_d {
+	background-image: url(../images/personajes_d.png);
+	position: absolute;
+	height: 261px;
+	width: 358px;
+	left: 591px;
+	top: 49px;
+}
+#solocine {
+	background-image: url(../images/solocine.png);
+	position: absolute;
+	height: 57px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: 40px;
+	top: 655px;
+}
+#actores {
+	position: absolute;
+	height: 40px;
+	width: 100%;
+	background-image: url(../images/actores.png);
+	background-repeat: no-repeat;
+	top: 703px;
+	background-position: 7px;
+}
+#screen {
+	background-color: #000;
+	position: absolute;
+	height: 423px;
+	width: 753px;
+	left: 124px;
+	top: 237px;
+}
+#fullContainer {
+	background: url(../images/home-back.jpg) center top;
+	background-size: cover;
+}
