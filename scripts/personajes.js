@@ -1,4 +1,7 @@
 $(document).ready(function(e) {
+	/*
+	Sólo para probar el git
+	*/
 	var curr = 0;
 	var currImg;
 	var total = 16;
